@@ -1,33 +1,25 @@
 {
-  "visual": {
-    "name": "textFilter",
-    "displayName": "Text Filter",
-    "guid": "textFilter25A4896A83E0487089E2B90C9AE57C8A",
-    "visualClassName": "Visual",
-    "version": "1.1.0",
-    "description": "Provides a search box that can be placed anywhere in your dashboard. This adds a text filtering capability for quick searching across your data.",
-    "supportUrl": "",
-    "gitHubUrl": ""
-  },
-  "output": "dist/textFilter.pbiviz",
-  "apiVersion": "1.11.0",
-  "author": {
-    "name": "Microsoft (experimental)",
-    "email": "msrvizsupport@microsoft.com"
-  },
-  "assets": {
-    "icon": "assets/icon.png"
-  },
-  "externalJS": [
-    "node_modules/d3/d3.min.js",
-    "node_modules/powerbi-models/dist/models.js",
-    "node_modules/powerbi-visuals-utils-dataviewutils/lib/index.js",
-    "node_modules/powerbi-visuals-utils-typeutils/lib/index.js",
-    "node_modules/powerbi-visuals-utils-svgutils/lib/index.js",
-    "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.js"
-  ],
-  "style": "style/visual.less",
-  "capabilities": "capabilities.json",
-  "dependencies": "dependencies.json",
-  "stringResources": []
+    "visual": {
+        "name": "filter",
+        "displayName": "filter",
+        "guid": "filterD8E5736C36E5460D9D4FAB9AC4B5AD47",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "Comma Delimited",
+        "supportUrl": "a.com",
+        "gitHubUrl": "b.com"
+    },
+    "apiVersion": "2.6.0",
+    "author": {
+        "name": "Rishav Sharma",
+        "email": "r@g.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
 }
